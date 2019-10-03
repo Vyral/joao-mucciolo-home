@@ -1,5 +1,5 @@
 audit_header: false
-title: San Juan del Sur Real Estate Video Blog with Joao Mucciolo
+title: Blog de video inmobiliario de San Juan del Sur y Tola
 description: Our mission at -- CLIENT BRAND -- is to be your best resource for San Juan del Sur real estate advice. Whether you are a buyer, seller, or investor, our team of professionals can answer any questions you might have about real estate. If you are looking to buy or sell a home, you can get all the information and the latest updates, tips, and tricks from The -- CLIENT BRAND --, your professional San Juan del Sur Real Estate Agents.
 show_custom_links: false
 custom_links:
@@ -15,11 +15,11 @@ client:
   title:
   license_number:
   about_markdown: |
-    Joao has been an entrepreneur since 2003 in Nicaragua, bringing the Sushi Itto franchise to the country and creating his own brand:  Italianissimo. He created a company of 6 restaurants and more than 120 direct jobs.
+    Joao ha sido emprendedor desde 2003 en Nicaragua, trayendo la franquicia Sushi Itto al país y creando su propia marca: Italianissimo. Creó una empresa de 6 restaurantes y más de 120 empleos directos.
 
-    Brazilian by birth, and traveler of the world, Joao landed in Nicaragua more than 20 years ago and  considers himself today as Nica! He speaks Spanish, English, Portuguese, and a little French.
+    Brasileño de nacimiento y viajero del mundo, Joao aterrizó en Nicaragua hace más de 20 años y se considera hoy como Nica. Habla español, inglés, portugués y un poco de francés.
 
-    Joao has contributed to entrepreneurship in Nicaragua, bringing organizations such as the Entrepreneurs Organization and Accelerator with the purpose of helping entrepreneurship grow. He is also a member of the Central American Leadership Initiative of the Aspen Institute where he strengthens his leadership skills.
+    Joao ha contribuido al emprendimiento en Nicaragua, trayendo organizaciones como la Organización de Empresarios y Accelerator con el propósito de ayudar al crecimiento del emprendimiento. También es miembro de la Iniciativa de Liderazgo Centroamericana del Instituto Aspen, donde fortalece sus habilidades de liderazgo.
   brand: Trinity Real Estate
   brokerage: Keller Williams
   market: San Juan del Sur
@@ -90,7 +90,7 @@ images:
   client_headshot_path: /img/headshot.jpg
   hero_logo_path: /img/logo.png
   logo_width_number: 30
-  hero_text: San Juan del Sur Real Estate Video Blog
+  hero_text: Blog de video inmobiliario de San Juan del Sur y Tola
   hero_background_hex: '#999'
   hero_image_path: /img/background.jpg
   post_cover: /img/cover.jpg
