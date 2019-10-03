@@ -17,7 +17,7 @@
   <!-- style-->
   <link rel="stylesheet" href="/css/main.css">
   <link rel="canonical" href="http://localhost:4000/about/">
-  <link rel="alternate" type="application/rss+xml" title="Blog de video inmobiliario de San Juan del Sur y Tola" href="http://localhost:4000/feed.xml">
+  <link rel="alternate" type="application/rss+xml" title="San Juan del Sur and Tola" href="http://localhost:4000/feed.xml">
   <!-- All that meta crap -->
   <meta name="description" content="Our mission at Trinity Real Estate is to be your best resource for San Juan del Sur real estate advice. Whether you are a buyer, seller, or investor, our team of professionals can answer any questions you might have about real estate. If you are looking to buy or sell a home, you can get all the information and the latest updates, tips, and tricks from The Trinity Real Estate, your professional San Juan del Sur Real Estate Agents.
 	">
@@ -32,7 +32,7 @@
   <meta itemprop="name" content="About">
   <meta property="og:url" content="http://localhost:4000/about/">
   <meta property="og:description" content="Our mission at Trinity Real Estate is to be your best resource for San Juan del Sur real estate advice. Whether you are a buyer, seller, or investor, our team of professionals can answer any questions you might have about real estate. If you are looking to buy or sell a home, you can get all the information and the latest updates, tips, and tricks from The Trinity Real Estate, your professional San Juan del Sur Real Estate Agents.">
-  <meta property="og:site_name" content="Blog de video inmobiliario de San Juan del Sur y Tola">
+  <meta property="og:site_name" content="San Juan del Sur and Tola">
   <meta property="og:locale" content="en_US">
   <meta property="og:image" content="">
   <meta property="fb:admins" content="">
@@ -63,13 +63,82 @@
 	<body>
 		
 		<header id="hero">
-<div class="hero-img" style="background-image: url(/img/background.jpg); background-color: #999">
-        <!-- logo -->
-        <a href="/"><img src="/img/logo.png" alt="" class="site-logo" /></a>
-        <!-- title -->
-        <a href="/"><h1 class="site-title">Blog de video inmobiliario de San Juan del Sur y Tola</h1></a>
-			</div>
+  <div class="container">
+    <br>
+    <div id="myCarousel" class="carousel slide">
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+        <li data-target="#myCarousel" data-slide-to="3"></li>
+        <li data-target="#myCarousel" data-slide-to="4"></li>
+        <li data-target="#myCarousel" data-slide-to="5"></li>
+        <li data-target="#myCarousel" data-slide-to="6"></li>
+        <li data-target="#myCarousel" data-slide-to="7"></li>
+      </ol>
+      <div class="carousel-inner" role="listbox">
+        <div class="item active"><img src="/img/hero1.jpg"></div>
+        <div class="item"><img src="/img/hero2.jpg"></div>
+        <div class="item"><img src="/img/hero3.jpg"></div>
+        <div class="item"><img src="/img/hero4.jpg"></div>
+        <div class="item"><img src="/img/hero5.jpg"></div>
+        <div class="item"><img src="/img/hero6.jpg"></div>
+        <div class="item"><img src="/img/hero7.jpg"></div>
+        <div class="item"><img src="/img/hero8.jpg"></div>
+      </div>
+    </div>
+    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
 </header>
+<script>
+$(document).ready(function(){
+  // Activate Carousel
+  $("#myCarousel").carousel({interval: 1000, wrap: true});
+
+  // Enable Carousel Indicators
+  $(".item1").click(function(){
+    $("#myCarousel").carousel(0);
+  });
+  $(".item2").click(function(){
+    $("#myCarousel").carousel(1);
+  });
+  $(".item3").click(function(){
+    $("#myCarousel").carousel(2);
+  });
+  $(".item4").click(function(){
+    $("#myCarousel").carousel(3);
+  });
+  $(".item5").click(function(){
+    $("#myCarousel").carousel(4);
+  });
+  $(".item6").click(function(){
+    $("#myCarousel").carousel(5);
+  });
+  $(".item7").click(function(){
+    $("#myCarousel").carousel(6);
+  });
+  $(".item8").click(function(){
+    $("#myCarousel").carousel(7);
+  });
+});
+
+// Enable Carousel Indicators
+$(".item").click(function(){
+    $("#myCarousel").carousel(1);
+});
+
+// Enable Carousel Controls
+$(".left").click(function(){
+    $("#myCarousel").carousel("prev");
+});
+</script>
 
 		<div class="container-fluid">
 			<div class="row">
@@ -115,12 +184,13 @@
 			
 			<li>
 				
-				<a class="cta" href="https://selvapacifica.com/" target="_blank">
+				<a class="cta" href="/property-value/" target="_blank">
 				
-					Rental Properties
+					Property Evaluation
 				</a>
 			</li>
 			
+			<li><a class="cta" href="https://selvapacifica.com/" target="_blank">Rental Properties</a></li>
 
 		</ul>
 </nav>
@@ -285,6 +355,30 @@
 <div class="cta-sidebar-container">
 	<div class="cta-img-container">
 		
+		<a href="/property-value/" target="_blank">
+		
+		<img src="/img/cta-images/001.jpg" alt="" />
+	</a>
+	</div>
+	<h5>Looking for a Home?</h5>
+	<p>
+		Search the entire MLS for your Property.
+	</p>
+	<div class="ctacontainer">
+		
+		<a class="ctalink" href="/property-value/" target="_blank">
+			Property Evaluation
+		</a>
+		
+	</div>
+</div>
+
+
+
+
+<div class="cta-sidebar-container">
+	<div class="cta-img-container">
+		
 		<a href="https://selvapacifica.com/" target="_blank">
 		
 		<img src="/img/cta-images/003.jpg" alt="" />
@@ -302,6 +396,7 @@
 		
 	</div>
 </div>
+
 
 					
 
@@ -541,7 +636,7 @@ function topFunction() {
 
 			<div class="container-fluid footer">
 <div class="container footer">
-	    <div class="row footer-pad">
+	    <!-- <div class="row footer-pad">
 	      
 	      
 	        <div class="col-sm-3">
@@ -558,7 +653,22 @@ function topFunction() {
 	          <address itemprop="address"></address>
 	        </div>
 	      
-	    </div>
+	    </div> -->
+			<div class="row footer-pad">
+
+				<div class="col-sm-4">
+					Joao Mucciolo
+				</div>
+
+				<div class="col-sm-4">
+					Trinity Real Estate
+				</div>
+
+				<div class="col-sm-4">
+					Keller Williams
+				</div>
+
+			</div>
 	    <hr>
 	    <div class="row">
 	      <div class="col-sm-4">

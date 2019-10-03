@@ -1,5 +1,5 @@
 audit_header: false
-title: Blog de video inmobiliario de San Juan del Sur y Tola
+title: San Juan del Sur and Tola
 description: Our mission at Trinity Real Estate is to be your best resource for San Juan del Sur real estate advice. Whether you are a buyer, seller, or investor, our team of professionals can answer any questions you might have about real estate. If you are looking to buy or sell a home, you can get all the information and the latest updates, tips, and tricks from The Trinity Real Estate, your professional San Juan del Sur Real Estate Agents.
 show_custom_links: true
 custom_links:
@@ -36,8 +36,10 @@ client:
 CTAs:
   first_CTA_text: Listings Search
   first_CTA_URL: https://www.kwnicaragua.com/listings?transactionType=1&resCom=1#?resCom=1&transactionType=1&lan=en-US&currency=USD&filterVal=1026&refineSearch=1&pageNumber=1
-  second_CTA_text: Rental Properties
-  second_CTA_URL: https://selvapacifica.com/
+  second_CTA_text: Property Evaluation
+  second_CTA_URL: /property-value/
+  third_CTA_text: Rental Properties
+  third_CTA_URL: https://selvapacifica.com/
 
 sidebar_CTA:
   - CTA_image_path: /img/cta-images/002.jpg
@@ -47,11 +49,18 @@ sidebar_CTA:
     CTA_url: https://www.kwnicaragua.com/listings?transactionType=1&resCom=1#?resCom=1&transactionType=1&lan=en-US&currency=USD&filterVal=1026&refineSearch=1&pageNumber=1
 
 second_sidebar_CTA:
-  - CTA_image_path2: /img/cta-images/003.jpg
-    CTA_title2: "Vacation Homes That Are Extraordinary"
-    CTA_text2: "With a curated a collection of exclusive, hand picked, luxury spaces—in all shapes and sizes—we provide the ultimate experiences in all of Nicaragua."
-    CTA_link_text2: "Search Rental Properties"
-    CTA_url2: https://selvapacifica.com/
+  - CTA_image_path2: /img/cta-images/001.jpg
+    CTA_title2: "Looking for a Home?"
+    CTA_text2: "Search the entire MLS for your Property."
+    CTA_link_text2: "Property Evaluation"
+    CTA_url2: /property-value/
+
+third_sidebar_CTA:
+  - CTA_image_path3: /img/cta-images/003.jpg
+    CTA_title3: "Vacation Homes That Are Extraordinary"
+    CTA_text3: "With a curated a collection of exclusive, hand picked, luxury spaces—in all shapes and sizes—we provide the ultimate experiences in all of Nicaragua."
+    CTA_link_text3: "Search Rental Properties"
+    CTA_url3: https://selvapacifica.com/
 
 lender:
   show_section: false
