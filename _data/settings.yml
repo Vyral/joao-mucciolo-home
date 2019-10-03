@@ -1,10 +1,12 @@
 audit_header: false
 title: Blog de video inmobiliario de San Juan del Sur y Tola
-description: Our mission at -- CLIENT BRAND -- is to be your best resource for San Juan del Sur real estate advice. Whether you are a buyer, seller, or investor, our team of professionals can answer any questions you might have about real estate. If you are looking to buy or sell a home, you can get all the information and the latest updates, tips, and tricks from The -- CLIENT BRAND --, your professional San Juan del Sur Real Estate Agents.
+description: Our mission at Trinity Real Estate is to be your best resource for San Juan del Sur real estate advice. Whether you are a buyer, seller, or investor, our team of professionals can answer any questions you might have about real estate. If you are looking to buy or sell a home, you can get all the information and the latest updates, tips, and tricks from The Trinity Real Estate, your professional San Juan del Sur Real Estate Agents.
 show_custom_links: true
 custom_links:
   - title: Testimonials
-    url: /client-testimonials
+    url: /testimonials/
+  - title: Articles
+    url: /articles/
 show_custom_links_new_tab: false
 custom_links_new_tab:
   - title:
@@ -32,24 +34,24 @@ client:
   url: https://www.kwnicaragua.com/joao
 
 CTAs:
-  first_CTA_text: Home Valuation
-  first_CTA_URL: /homevalue/
-  second_CTA_text: Listings Search
-  second_CTA_URL: https://www.kwnicaragua.com/listings?transactionType=1&resCom=1#?resCom=1&transactionType=1&lan=en-US&currency=USD&filterVal=1026&refineSearch=1&pageNumber=1
+  first_CTA_text: Listings Search
+  first_CTA_URL: https://www.kwnicaragua.com/listings?transactionType=1&resCom=1#?resCom=1&transactionType=1&lan=en-US&currency=USD&filterVal=1026&refineSearch=1&pageNumber=1
+  second_CTA_text: Rental Properties
+  second_CTA_URL: https://selvapacifica.com/
 
 sidebar_CTA:
-  - CTA_image_path: /img/cta-images/001.jpg
-    CTA_title: "What’s Your San Juan del Sur Home Worth?"
-    CTA_text: "Are you thinking of selling your home or interested in learning about home prices in your neighborhood? We can help you."
-    CTA_link_text: "Free Home Value Report"
-    CTA_url: /homevalue/
+  - CTA_image_path: /img/cta-images/002.jpg
+    CTA_title: "Looking for a San Juan del Sur Home?"
+    CTA_text: "Search all residential properties available for sale"
+    CTA_link_text: "Listings Search"
+    CTA_url: https://www.kwnicaragua.com/listings?transactionType=1&resCom=1#?resCom=1&transactionType=1&lan=en-US&currency=USD&filterVal=1026&refineSearch=1&pageNumber=1
 
 second_sidebar_CTA:
-  - CTA_image_path2: /img/cta-images/002.jpg
-    CTA_title2: "Looking for a San Juan del Sur Home?"
-    CTA_text2: "Search all residential properties available for sale"
-    CTA_link_text2: "Listings Search"
-    CTA_url2: https://www.kwnicaragua.com/listings?transactionType=1&resCom=1#?resCom=1&transactionType=1&lan=en-US&currency=USD&filterVal=1026&refineSearch=1&pageNumber=1
+  - CTA_image_path2: /img/cta-images/003.jpg
+    CTA_title2: "Vacation Homes That Are Extraordinary"
+    CTA_text2: "With a curated a collection of exclusive, hand picked, luxury spaces—in all shapes and sizes—we provide the ultimate experiences in all of Nicaragua."
+    CTA_link_text2: "Search Rental Properties"
+    CTA_url2: https://selvapacifica.com/
 
 lender:
   show_section: false
@@ -82,7 +84,7 @@ podcast:
   categories: Education
   image: /img/podcast.jpg
   subtitle: 'Learn all the tips, tricks and more for buyers and sellers in the San Juan del Sur Area Real Estate Market'
-  description: 'If you are looking to buy or sell a home, get all the information and the latest updates, tips, and tricks from -- CLIENT BRAND -- - your professional San Juan del Sur Real Estate Agents.'
+  description: 'If you are looking to buy or sell a home, get all the information and the latest updates, tips, and tricks from Trinity Real Estate - your professional San Juan del Sur Real Estate Agents.'
   keywords: 'Real Estate for sale, Real Estate agents, top real estate agents, local real estate agents, find a real estate agent, houses for sale in San Juan del Sur, home selling tips, home for sale, home buying, home buying process, property finder, property search, property, real estate market, estate agent, realestate, real estate listings, buying a house, homes for sale, mls, home buyer'
   author: 'Joao Mucciolo'
 

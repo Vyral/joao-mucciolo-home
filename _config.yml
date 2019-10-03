@@ -44,7 +44,7 @@ defaults:
     values:
       layout: "default"
 tags:
-  - Market Update
-  - Real Estate
-  - Home Buyer Tips
-  - Home Seller Tips
+  - Actualización del Mercado (Market Update)
+  - Bienes Raíces (Real Estate)
+  - Consejos para Vendedores de Propiedad (Home Buyer Tips)
+  - Articles
