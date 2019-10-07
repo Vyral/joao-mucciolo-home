@@ -11,9 +11,9 @@ layout: post
 title: this is a test post
 date: 2018-05-10
 tags:
-  - Actualización del Mercado (Market Update)
-  - Bienes Raíces (Real Estate)
-  - Consejos para Vendedores de Propiedad (Home Buyer Tips)
+  - Market Update
+  - Real Estate
+  - Home Buyer Tips
   - Articles
 excerpt: 'Master cleanse pork belly pour-over VHS kogi locavore. Butcher chartreuse pour-over, farm-to-table slow-carb asymmetrical hexagon man braid.'
 enclosure:
