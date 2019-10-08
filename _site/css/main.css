@@ -2368,7 +2368,8 @@ form select {
 
 .cta-title {
   font-weight: 700;
-  font-size: 42px;
+  font-size: 30px;
+  text-transform: uppercase;
   line-height: 70px;
   padding-top: 2rem;
   color: #fff;
@@ -2458,9 +2459,9 @@ form select {
   .simple-cta-link p {
     text-align: center; }
   .simple-cta-link:hover {
-    background: #fff;
-    color: #b40101;
-    border: 1px solid #b40101; }
+    background: #999;
+    color: #fff;
+    border: 1px solid #999; }
   .simple-cta-link:active {
     box-shadow: 0 0 0 #b40101;
     -webkit-transform: translateY(0rem);
