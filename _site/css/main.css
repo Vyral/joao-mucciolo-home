@@ -2347,52 +2347,121 @@ form select {
   background-position: center;
   background-size: cover; }
 
-.e2ma_signup_form_label {
-  color: #555 !important;
-  Text-align: center; }
+.hero-home {
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed; }
 
-.e2ma_signup_form_required_footnote {
-  color: #555 !important;
-  Text-align: center; }
+#hero {
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  text-align: center; }
 
-.e2ma_signup_form_required_asterix {
-  color: #b40101 !important; }
+.hero-cta {
+  padding-top: 6rem;
+  text-align: center;
+  width: 75%;
+  display: block;
+  margin: 0 auto; }
 
-.e2ma_signup_form input[type="submit"] {
-  background-color: #b40101;
+.cta-title {
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 70px;
+  padding-top: 2rem;
+  color: #fff;
+  -webkit-filter: drop-shadow(0px 2px 7px black);
+  filter: drop-shadow(0px 2px 7px black); }
+
+.hero-cta-text {
+  font-weight: 300;
+  font-size: 20px;
+  color: #fff;
+  -webkit-filter: drop-shadow(0px 2px 7px black);
+  filter: drop-shadow(0px 2px 7px black); }
+
+.select-container {
+  display: block;
+  margin: 0 auto; }
+
+.border {
+  border-bottom: 5px solid #b40101; }
+
+.simple-cta-container {
+  width: 300px;
+  text-align: center;
+  background: rgba(238, 238, 238, 0.75);
+  display: inline-block;
+  margin: 2rem;
+  padding-bottom: 2.5rem;
+  border-bottom: 5px solid #b40101; }
+  .simple-cta-container:hover {
+    background: #fff; }
+
+.simple-side-cta-container {
+  width: 90%;
+  background: rgba(238, 238, 238, 0.9);
   margin: 0 auto;
-  display: block; }
+  margin: 2rem;
+  padding-bottom: 2.5rem;
+  border-bottom: 5px solid #b40101; }
 
-.e2ma_signup_form input[type="submit"]:hover {
-  background-color: #fff;
-  Color: #b40101;
-  Border: 1px solid #b40101; }
+.full-cta {
+  background: #eee;
+  width: 100%;
+  border-bottom: 5px solid #b40101;
+  text-align: center; }
 
-.e2ma_signup_form {
-  background-color: #fff;
-  Border: 1px solid #cfcfcf;
-  margin-bottom: 22px !important;
-  width: 100% !important; }
+.full-simple {
+  max-width: 720px;
+  margin: 0 auto;
+  padding-bottom: 2.5rem; }
 
-.e2ma_signup_message {
-  padding-top: 10px;
-  Color: #353535 !important;
-  font-family: "Source Sans Pro", helvetica, arial, sans-serif;
-  Text-align: center;
-  Font-size: 18px !important;
-  margin-bottom: 10px;
-  Line-height: 1.2; }
+.simple-cta-photo {
+  width: 100%; }
 
-.e2ma_signup_form_button_row {
-  margin: 10px 0 0 0 !important;
-  padding: 10px 0 0 0 !important; }
-
-.whitespace {
-  line-height: 1.2;
-  font-size: 18px; }
-
-.landing-list {
+.secondary-cta-title {
+  font-weight: 700;
+  font-size: 23px;
+  text-transform: uppercase;
+  text-transform: uppercase;
+  color: #b40101;
+  padding: 1rem;
   margin-bottom: 0; }
-  .landing-list li {
-    font-size: 16px;
-    line-height: 1.2; }
+
+.secondary-subtitle {
+  font-size: 20px;
+  color: #000;
+  padding: 1rem;
+  margin-bottom: 0; }
+
+.simple-cta {
+  display: block;
+  margin: 0 auto;
+  font-size: 20px;
+  text-align: left;
+  padding-left: 1rem; }
+
+.simple-cta-link {
+  justify-content: center;
+  background: #b40101;
+  border: 1px solid #b40101;
+  border-radius: 0px;
+  padding: 10px 20px;
+  text-decoration: none;
+  font-size: 18px;
+  color: #ffffff;
+  margin-left: 1rem;
+  transition: all 0.15s ease-out 0s; }
+  .simple-cta-link p {
+    text-align: center; }
+  .simple-cta-link:hover {
+    background: #fff;
+    color: #b40101;
+    border: 1px solid #b40101; }
+  .simple-cta-link:active {
+    box-shadow: 0 0 0 #b40101;
+    -webkit-transform: translateY(0rem);
+    transform: translateY(0rem); }
