@@ -1013,8 +1013,7 @@ there.
   border-radius: 0;
   min-height: 52px;
   background: #ffffff;
-  width: 100%;
-  overflow: hidden; }
+  width: 100%; }
 
 .navbar-andross .navbar-brand {
   color: #b40101;
@@ -1072,6 +1071,39 @@ there.
 .navbar {
   padding-right: 15px;
   padding-left: 15px; }
+
+.dropbtn {
+  color: black;
+  background-color: #ffffff;
+  font-weight: 300;
+  font-size: 20px;
+  border: none;
+  text-transform: capitalize;
+  margin-bottom: 0; }
+
+.dropdown {
+  position: relative;
+  display: inline-block; }
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 300px;
+  padding: 10px 15px; }
+
+.dropdown-content a {
+  background-color: #eee;
+  text-decoration: none;
+  display: block;
+  font-size: 20px; }
+
+.dropdown:hover .dropdown-content {
+  display: block; }
+
+.dropdown:hover .dropbtn {
+  background-color: #b40101;
+  border: 0px solid #b40101; }
 
 @media(max-width: 347px) {
   .navbar {
@@ -2183,6 +2215,9 @@ form select {
 
 .newsletter {
   background: #919191; }
+
+.whitespace {
+  margin-top: 3rem; }
 
 #side-logo {
   width: 90%;

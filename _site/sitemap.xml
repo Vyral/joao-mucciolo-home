@@ -34,4 +34,8 @@
 <url>
 <loc>http://localhost:4000/thankyou/</loc>
 </url>
+<url>
+<loc>http://localhost:4000/uploads/presentation.pdf</loc>
+<lastmod>2019-10-08T10:13:15-05:00</lastmod>
+</url>
 </urlset>
